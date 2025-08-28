@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Language" content="pt-br">
+		<title>Alura - Tipografia para web</title>
+
+		<!-- Estrutura CSS -->
+		<link href="css/estrutura.css" rel="stylesheet">
+
+		<!-- Tipografia CSS -->
+		<link href="css/tipografia.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Lato:300,300i,400,400i,700,700i|Roboto+Slab:300,400,700" rel="stylesheet">
+	</head>
+	<body id="topo-da-pagina">
+		<nav id="mainNav" class="navbar">
+				<a href="#topo-da-pagina" class="navbar-brand"><img class="marca" src="img/alura-tipografia-para-web.svg"></a>
+				<a href="#mainNav" id="btn-menu" class="btn-menu">Aulas</a>
+				<a href="#" id="btn-sair-menu" class="btn-menu">Sair</a>
+				<ul class="menu-itens">
+					<li><a href="#tipos">Tipos</a></li>
+					<li><a href="#extensoes">Extensões</a></li>
+					<li><a href="#composicoes">Composições</a></li>
+					<li><a href="#estilos">Estilos</a></li>
+					<li><a href="#questoes-importantes">Questões Importantes</a></li>
+				</ul>
+			</div>
+		</nav>
+		<header id="introducao">
+			<div class="container">
+				<div class="box-inteiro">
+					<img src="img/logo-alura.svg" class="logo-alura">
+					<h1 class="intro-titulo">Tipografia para web</h1>
+					<h2 class="intro-subtitulo">Curso e guia de utilização de fontes no desenvolvimento de páginas da internet</h2>
+					<a href="#tipos" class="botao">Iniciar</a>
+				</div>
+			</div>
+		</header>
+		<section id="tipos">
+			<div class="container">
+				<div class="box-inteiro">
+					<h1 class="titulo-de-capitulo">Conhecendo os diferentes tipos de fontes</h1>
+				</div>
+				<div class="box-meio">
+					<figure class="imagem-com-legenda">
+						<img src="img/aula-1/serifa-times-new-roman.png" alt="Serifa – Times New Roman">
+						<figcaption>Times New Roman</figcaption>
+					</figure>
+					<h3 class="aula-1-serifa">Serifa</h3>
+					<p class="aula-1-serifa">As serifas são pequenos ornamentos localizados nas extremidades de cada letra e têm como função proporcionar maior fluidez na leitura. Estes detalhes fazem com que uma letra praticamente se conecte a outra.</p>
+				</div>
+				<div class="box-meio">
+					<figure class="imagem-com-legenda">
+						<img src="img/aula-1/sem-serifa-helvetica.png" alt="Sem serifa – Helvetica">
+						<figcaption>Helvetica</figcaption>
+					</figure>
+					<h3 class="aula-1-sem-serifa">Sem serifa</h3>
+					<p class="aula-1-sem-serifa">Fontes sem a serifa normalmente têm aspecto mais simplificado. Não têm o ornamento que proporciona fluidez, em contrapartida podem tornar o texto mais leve.</p>
+				</div>
+				<div class="box-meio">
+					<figure class="imagem-com-legenda">
+						<img src="img/aula-1/espacamento-fixo-courier-new.png" alt="Serifa – Times New Roman">
+						<figcaption>Courier New</figcaption>
+					</figure>
+					<h3 class="aula-1-espacamento-fixo">Espaçamento fixo</h3>
+					<p class="aula-1-espacamento-fixo">Como o próprio nome já diz, fontes de espaçamento fixo, ou <em>monospace</em>, possuem sempre a mesma medida entre os caracteres, ou seja, não possuem <em>kerning</em>. O <em>Kerning</em> é um ajuste automático que aproxima caracteres que ficariam visualmente afastados por suas formas.</p>
+				</div>
+				<div class="box-meio">
+					<figure class="imagem-com-legenda">
+						<img src="img/aula-1/cursiva-brush-script-mt.png" alt="Sem serifa – Helvetica">
+						<figcaption>Brush Script MT</figcaption>
+					</figure>
+					<h3 class="aula-1-cursiva">Cursiva</h3>
+					<p class="aula-1-cursiva">São fontes que simulam um texto feito à mão, com letras de aspecto caligráfico. A leitura desse tipo de fonte pode variar e, normalmente, não é das mais fáceis – não é recomendada para textos de parágrafo.</p>
+				</div>
+				<div class="box-meio">
+					<figure class="imagem-com-legenda">
+						<img src="img/aula-1/fantasia-papyrus.png" alt="Sem serifa – Helvetica">
+						<figcaption>Papyrus</figcaption>
+					</figure>
+					<h3 class="aula-1-fantasia">Fantasia</h3>
+					<p class="aula-1-fantasia">São as fontes que não se encaixam nas demais regras e podem ter diferentes aspectos. Quando utilizadas, normalmente estilizam títulos ou elementos decorativos.</p>
+				</div>
+				<div class="box-inteiro">
+					<img src="img/aula-1/tipografia-guias.png" alt="Tipografia" class="img-100">
+					<p><b>Altura X:</b> altura da letra minúscula da fonte.</p>
+					<p><b>Altura de Versal:</b> distância da linha de base ao topo da letra maiúscula.</p>
+					<p><b>Altura de Ascendente:</b> altura que algumas letras minúsculas atingem, podendo ser igual a altura de versal.</p>
+					<p><b>Altura de Descendente:</b> comprimento que algumas letras atingem para a parte inferior da linha de base.</p>
+					<p><b>Linha de Base:</b> eixo que alinha todos os caracteres.</p>
+					<p><b>Saliênca:</b> curvas na base das letras que ultrapassam a linha de base, utilizadas para balancear o texto. Se os tipos não fossem posicionados assim, pareceriam estar oscilando ao longo de um texto.</p>
+				</div>
+			</div>
+		</section>
+		<section id="extensoes">
+			<div class="container">
+				<div class="box-inteiro">
+					<h1 class="titulo-de-capitulo">Uso legal, instalação e extensões de fontes</h1>
+				</div>
+				<div class="box-meio inverso">
+					<h4 class="titulo-peso-4">TrueType</h4>
+					<p>Criada nos anos 80 pela <em>Apple</em> e implementada pela <em>Microsoft</em> no <em>Windows 3.1</em>, são fontes altamente escaláveis e leves em conjunto de caracteres. São as fontes mais comuns de entrar, sua extensão é <b>.ttf</b>.</p>
+					<h4 class="titulo-peso-4">OpenType</h4>
+					<p>As fontes <em>OpenType</em> foram criadas pela <em>Microsoft</em> em 1994, baseadas nas fontes <em>TrueType</em>, com a intenção de suportar um maior número de caracteres e outros idiomas. Sua extensão é <b>.otf</b>.</p>
+					<h4 class="titulo-peso-4">PostScript</h4>
+					<p>Este tipo de fonte foi criado pela <em>Adobe</em> e é voltada principalmente para impressão, pois possui alta definição e grande compatibilidade com impressoras. Ela é encontrada em grupos de arquivos. No Windows e no Mac, as seguintes extensões compõem a fonte: <b>.afm</b>, <b>.pfb</b> e <b>.pfm</b>. Já no Linux, as extensões são: <b>.pfa</b> e <b>.afm</b></p>
+				</div>
+				<div class="box-meio texto-esquerda">
+					<h2 class="titulo-peso-2">As fontes possuem licenças</h2>
+						<p class="capitular">Assim como o uso de imagens, para o uso de fontes é necessário possuir licenças. Existem fontes pagas, além de outras com licença gratuita para uso não-comercial e de licença 100% livre. Neste curso, por exemplo, vamos utilizar a fonte <a href="http://www.dafont.com/pt/rounded-elegance.font" target="_blank">Rounded Elegance</a>, que possui licença 100% livre e pode ser encontrada no site <a href="http://www.dafont.com/" target="_blank">dafont.com</a>, uma ótima referência para pesquisar e encontrar fontes.</p>
+						<p>Acesse o link e baixe a fonte em seu computador.</p>
+					<h3 class="titulo-peso-3">Já baixou a fonte?</h3>
+					<p>Se você já está com o arquivo da fonte em seus downloads, siga para o próximo passo.</p>
+					<a href="#font-embed" class="botao">Seguir</a>
+				</div>
+				<div class="box-inteiro">
+					<h2 class="titulo-peso-2" id="font-embed">Incorporando uma fonte em seu site</h2>
+					<p class="capitular">Para utilizar uma fonte em uma página da web, é necessário que ela esteja incorporada ao site, pois caso o usuário não a tenha em seu computador, a página carregará com outra fonte. Para isto, podemos utilizar uma propriedade CSS, como também podemos incorporar a fonte por meio de um serviço <i>online</i>.</p>
+				</div>
+				<div class="box-inteiro">
+					<h3 class="titulo-peso-3">@font-face</h3>
+					<p>A propriedade CSS <b>@font-face</b> permite que adicionemos fontes específicas em nosso site e o usuário poderá vê-las mesmo que não as tenha em seu computador. Vejamos como isso funciona com a fonte <a href="http://www.dafont.com/pt/rounded-elegance.font" target="_blank">Rounded Elegance</a>.</p>
+					<p>Acesse o arquivo <b>tipografia.css</b> e adicione o seguinte:</p>
+					<pre class="codigo">
+@font-face{
+	font-family: 'Rounded Elegance';
+	src: url('../fonts/Rounded_Elegance.ttf');
+}</pre>
+					<p>Vamos estilizar todos os títulos e os itens do menu de navegação de nosso site com a fonte que incorporamos, em seguida, iremos inserir no CSS:</p>
+						<pre class="codigo">
+
+.titulo-de-capitulo,
+.titulo-peso-2,
+.titulo-peso-3,
+.titulo-peso-4,
+.menu-itens li{
+	font-family: 'Rounded Elegance', 'Century Gothic', 'CenturyGothic', 'AppleGothic', 'Trebuchet MS', sans-serif;
+	font-weight: normal;
+}</pre>
+					<p>Definimos que o <em>font-weight</em> é <em>normal</em> para resetar o comportamento padrão dos títulos. Também definimos outras fontes que poderão substituir a que escolhemos, caso ela não seja encontrada ou renderizada pelo navegador do usuário. Uma boa referência para saber quais são as fontes mais comuns nos computadores é o site <a href="http://www.cssfontstack.com/" target="_blank">CSS Font Stack</a>.</p>
+				</div>
+				<div class="box-inteiro inverso">
+					<h4 class="titulo-peso-4">Incorporando fontes com variações de peso e estilo</h4>
+					<p>Para adicionar variações da fonte, podemos incorporar os arquivos correspondentes aos demais estilos e dar um nome diferente para a variação da fonte na propriedade @font-face. Se quisermos que a fonte tenha o mesmo nome, mas aceite outras propriedades corretamente, devemos declarar as propriedades <b>font-weight</b> e <b>font-style</b> no @font-face referente àquela fonte.</p>
+				</div>
+				<div class="box-inteiro">
+					<p>Se você testou esta página em um navegador atual, deve ter visto a fonte incorporada corretamente em todos os títulos (só a introdução que possui classes personalizadas). Mas, como nem tudo na internet é simples, o ideal é que seja incorporado outros formatos de fontes para que funcionem como desejamos para a maior parte dos usuários. O css <em>@font-face</em> ficará assim:</p>
+					<pre class="codigo">
+@font-face{
+	font-family: 'Rounded Elegance';
+		src: url('../fonts/Rounded_Elegance.eot'); /* Modo compatível com IE 9 */
+		src: url('../fonts/Rounded_Elegance.eot?#iefix') format('embedded-opentype'), /* IE6 e IE8 */
+			url('../fonts/Rounded_Elegance.woff2') format('woff2'), /* Browsers mais recentes */
+			url('../fonts/Rounded_Elegance.woff') format('woff'), /* Browsers recentes */
+			url('../fonts/Rounded_Elegance.ttf')  format('truetype'), /* Safari, Android e iOS */
+			url('../fonts/Rounded_Elegance.svg#svgFontName') format('svg'); /* iOS anteriores */
+}</pre>
+					<p>Com isso damos suporte à maioria dos navegadores.</p>
+					<table class="info-browser">
+						<tbody>
+							<tr>
+								<th>Formato / Navegador</th>
+								<th>IE</th>
+								<th>Chrome</th>
+								<th>Firefox</th>
+								<th>Safari</th>
+								<th>Opera</th>
+							</tr>
+							<tr>
+								<td>TTF/OTF</td>
+								<td>9.0*</td>
+								<td>4.0</td>
+								<td>3.5</td>
+								<td>3.1</td>
+								<td>10.0</td>
+							</tr>
+							<tr>
+								<td>WOFF</td>
+								<td>9.0</td>
+								<td>5.0</td>
+								<td>3.6</td>
+								<td>5.1</td>
+								<td>11.1</td>
+							</tr>
+							<tr>
+								<td>WOFF2</td>
+								<td><span class="deprecated">Não suporta</span></td>
+								<td>36.0</td>
+								<td>35.0*</td>
+								<td><span class="deprecated">Não suporta</span></td>
+								<td>26.0</td>
+							</tr>
+							<tr>
+								<td>SVG</td>
+								<td><span class="deprecated">Não suporta</span></td>
+								<td>4.0</td>
+								<td><span class="deprecated">Não suporta</span></td>
+								<td>3.2</td>
+								<td>9.0</td>
+							</tr>
+							<tr>
+								<td>EOT</td>
+								<td>6.0</td>
+								<td><span class="deprecated">Não suporta</span></td>
+								<td><span class="deprecated">Não suporta</span></td>
+								<td><span class="deprecated">Não suporta</span></td>
+								<td><span class="deprecated">Não suporta</span></td>
+							</tr>
+						</tbody>
+						<caption>* IE: O formato da fonte só funciona quando definido para ser "instalável".</caption>
+						<caption>* Firefox: Não suportado por padrão, mas pode ser ativado nas configurações do navegador.</caption>
+					</table>
+				</div>
+				<div class="box-inteiro inverso">
+					<h4 class="titulo-peso-4">Conversores de fontes</h4>
+					<p>Você pode encontrar inúmeros conversores de fontes como o <a href="http://www.font2web.com/" target="_blank">Font2Web</a>, o <a href="https://www.web-font-generator.com/" target="_blank">Web Font Generator</a>, ou o <a href="http://transfonter.org/" target="_blank">Transformer.org</a>. Basta certificar-se de que a fonte que escolheu é domínio público e pode convertê-la para utilizá-la em seu sistema.</p>
+				</div>
+				<div class="box-inteiro">
+					<h3 class="titulo-peso-3">Google Fonts</h3>
+					<p>Também é possível utilizar fontes específicas incorporadas de serviços como o <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
+					<p>Neste curso, por exemplo, vamos incorporar a fonte <a href="https://fonts.google.com/specimen/Lato" target="_blank">Lato</a>. Esta combina com a fonte dos títulos sem grandes variações — seu formato também é arredondado, no entanto é mais fino. Vamos selecionar os estilos <b>Light 300</b>, <b>Light 300 Italic</b>, <b>Normal 400</b>, <b>Normal 400 Italic</b>, <b>Bold 700</b> e <b>Bold 700 Italic</b>, com isso teremos três pesos e suas variações para o itálico:
+					</p>
+					<img src="img/aula-2/lato-google-fonts-1.png">
+					<p>O próprio <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> nos dá o seguinte código para adicionarmos ao <em>Header</em>:</p>
+					<pre class="codigo">
+&lt;link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet"&gt;</pre>
+					<p>Então, vamos também definir o <em>font-family</em> do <em>body</em> no <b>tipografia.css</b>:</p>
+					<pre class="codigo">
+body{
+	font-family: 'Lato', 'Trebuchet MS', 'Arial', sans-serif;
+}</pre>
+					<p>Todas as fontes que não tinham sido estilizadas em nosso arquivo mudaram (basicamente, os parágrafos, as listas e a tabela). Vamos deixar os parágrafos e listas ainda mais suaves e agradáveis para a leitura? Então, defina o seguinte no <b>tipografia.css</b>:</p>
+					<pre class="codigo">
+p,
+li{
+	font-weight: 300;
+}</pre>
+				</div>
+				<div class="box-inteiro inverso">
+					<p class="capitular-inverso">Repare como a leitura dos parágrafos, ou seja, de qualquer volume considerável de texto, ficou mais agradável. Ao diminuirmos a espessura da letra, conseguimos um texto menos denso. Mas tenha cuidado ao utilizar a espessura mais fina das fontes. Caso esta fique muito fina, poderá prejudicar a legibilidade.</p>
+					<p>A altura da linha (<em>line-height</em>) e a adição de uma margem entre os parágrafos são alguns fatores interessantes que contribuem para a boa continuidade na leitura.</p>
+				</div>
+				<div class="box-inteiro">
+					<h4 class="titulo-peso-4">Incorporando mais estilos</h4>
+					<p>Na etapa seguinte, a de composições, veremos como criar novas combinações de fontes. Para isso, vamos incorporar também as fontes <a href="https://fonts.google.com/specimen/Roboto+Slab" target="_blank">Roboto Slab 300, 400 e 700,</a> e <a href="https://fonts.google.com/specimen/Lobster" target="_blank">Droid Serif 400, 400 itálico, 700 e 700 itálico</a>. É necessário substituir o código que incluímos no <em>header</em> por:</p>
+						<pre class="codigo">
+&lt;link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Lato:300,300i,400,400i,700,700i|Roboto+Slab:300,400,700" rel="stylesheet"&gt;</pre>
+					<p>É importante lembrar que, quanto maior o número de fontes incorporadas em uma página, maior será o tempo para carregar. Além disso, as fontes carregadas diretamente do Google Fontes podem fazer com que a sua página demore mais para carregar, pois dependem de outro servidor.</p>
+				</div>
+				<div class="box-inteiro">
+					<h2 class="titulo-peso-2">Como instalar fontes em seu computador</h2>
+					<p>Para utilizar uma fonte em uma página da web, não precisamos que ela esteja instalada no computador – o próprio navegador renderiza as fontes incorporadas. Mas, caso precisemos utilizar determinada fonte em outro software, ela deve estar instalada no computador. Se for necessário, basta seguir os passos descritos abaixo, de acordo com o seu sistema operacional.</p>
+				</div>
+				<div class="box-terco">
+					<img src="img/aula-2/ico-mac.png" class="icone-sistema">
+					<h3 class="titulo-peso-3">OS <small>(Mac)</small></h3>
+					<h4 class="titulo-peso-4">Modo 1</h4>
+					<ol class="passos">
+						<li>Clique duas vezes sobre a fonte que deseja instalar;</li>
+						<li>Uma janela se abrirá, clique em <em>instalar fonte</em>.</li>
+					</ol>
+
+					<h4 class="titulo-peso-4">Modo 2</h4>
+					<ol class="passos">
+						<li>Abra o aplicativo <em>Catálogo de Fontes (Fontbook);</em></li>
+						<li>Arraste as fontes que deseja instalar para lá;</li>
+						<li>As fontes que forem instaladas, podem ser vistas na aba <em>Usuário (User)</em>.</li>
+					</ol>
+				</div>
+				<div class="box-terco">
+					<img src="img/aula-2/ico-windows.png" class="icone-sistema">
+					<h3 class="titulo-peso-3">Windows <small>(Microsoft)</small></h3>
+					<h4 class="titulo-peso-4">Modo 1</h4>
+					<ol class="passos">
+						<li>Clique com o botão direito sobre a fonte desejada;</li>
+						<li>Selecione a opção <em>instalar</em>.</li>
+					</ol>
+
+					<h4 class="titulo-peso-4">Modo 2</h4>
+					<ol class="passos">
+						<li>Acesse <em>c:\Windows\Fonts</em>;</li>
+						<li>Copie ou mova a fonte que deseja instalar para lá.</li>
+					</ol>
+				</div>
+				<div class="box-terco">
+					<img src="img/aula-2/ico-linux.png" class="icone-sistema">
+					<h3 class="titulo-peso-3">Ubuntu <small>(Linux)</small></h3>
+					<ol class="passos">
+						<li>Acesse o diretório <em>/usr/share/fonts/</em>;</li>
+						<li>Copie ou mova o arquivo da fonte para lá;</li>
+					</ol>
+				</div>
+			</div>
+		</section>
+		<section id="composicoes">
+			<div class="container">
+				<div class="box-inteiro">
+					<h1 class="titulo-de-capitulo">Composições: combinações e distribuição de fontes no layout</h1>
+				</div>
+				<div class="box-inteiro">
+					<h2 class="titulo-peso-2">Princípios para uma tipografia de boa legibilidade</h2>
+				</div>
+				<div class="box-terco">
+					<h3 class="titulo-peso-3">Hierarquia</h3>
+					<p>A disposição de cada elemento de um layout é a importância que queremos dar para eles. Trata-se da forma em que será conduzido o olhar do usuário para facilitarmos a localização das informações que ele deseja encontrar.</p>
+					<p>O <em>HTML</em> deve estar bem desenvolvido com os pesos e estilos compatíveis aos elementos que eles representam, inclusive, para que funcionem bem nos leitores de tela.</p>
+				</div>
+				<div class="box-terco">
+					<h3 class="titulo-peso-3">Consistência</h3>
+					<p>Caso a marca possua um manual de identidade visual, devemos utilizar a tipografia recomendada. Quando não há manual, devemos escolher as fontes e definir as combinações que remetam às características da marca.</p>
+					<p>A distribuição adequada da informação também proporcionará layouts mais consistentes. Deve haver um padrão de alinhamento em cada seção de informações.</p>
+				</div>
+				<div class="box-terco">
+					<h3 class="titulo-peso-3">Contraste</h3>
+					<p>A relação da cor do texto com a cor ou imagem do fundo, a espessura da fonte, a altura da linha e as margens definem o contraste que o bloco de texto irá produzir.</p>
+					<p>Pouco contraste dificulta a leitura e muito contraste pode tornar a leitura cansativa. É importante definir um padrão que possibilite uma leitura agradável e também tenha relação com a identidade.</p>
+				</div>
+				<div class="box-terco">
+					<h3 class="titulo-peso-3">Ritmo</h3>
+					<p>O espaçamento entre um elemento e outro, a própria hierarquia estabelecida, assim como o espaçamento entre os caracteres (<em>letter-spacing</em>) ou entre as palavras (<em>word-spacing</em>) determinam o ritmo da leitura do usuário.</p>
+					<p>Uma página com um bom ritmo é mais agradável e demonstra que os elementos e o conteúdo estão bem distribuídos no layout.</p>
+				</div>
+				<div class="box-terco">
+					<h3 class="titulo-peso-3">Espaço</h3>
+					<p>Os blocos de texto devem estar alocados em espaços adequados. No caso de uma página responsiva, como esta, as quebras devem considerar uma boa distribuição das palavras pelos blocos para que não formem linhas muito curtas.</p>
+					<p>Caso necessário, os blocos devem passar a ter 100% de largura para melhor alocar o texto em dispositivos com telas de largura menor.</p>
+				</div>
+				<div class="box-terco">
+					<h3 class="titulo-peso-3">Proporção</h3>
+					<p>É interessante que os elementos estejam no layout de forma que distribuam o peso uniformemente. Com o uso da proporção, o layout adquire maior consistência e ocupa possíveis espaços vazios.</p>
+					<p>O tamanho dos elementos de texto está diretamente ligado ao conteúdo, portanto, para que haja proporção, é interessante estipular um número mínimo e máximo de caracteres.</p>
+				</div>
+				<div class="box-inteiro">
+					<h2 class="titulo-peso-2">Com serifa ou sem serifa?</h2>
+					<p class="capitular">As serifas têm a função de tornar os blocos ópticos mais contínuos. Por outro lado, as fontes sem serifa podem tornar os blocos de texto menos densos. A combinação de fontes deve remeter ao conteúdo e à identidade e, por isso, cada layout é um caso específico. No momento da criação, algumas questões importantes podem ser levadas em consideração:</p>
+					<h4 class="titulo-peso-4">Quero gerar um aspecto mais moderno ou mais clássico?</h4>
+					<p>As fontes serifadas têm origem no alfabeto romano e são herança da imprensa de Gutenberg, por volta de 1439. As fontes sem serifa, também chamadas de grotescas, passaram a ser utilizadas funcionalmente pela escola Bauhaus, fato mais recente – 1919, a fim de criar composições com design mais moderno. É possível combinar ambas as fontes e até outros tipos, tudo depende da proposta do seu projeto.</p>
+					<h4 class="titulo-peso-4">Posso utilizar duas fontes do mesmo tipo?</h4>
+					<p>Pode, mas é interessante que as fontes se diferenciem em algum aspecto. Nesta página, por exemplo, combinamos duas fontes sem serifa na maioria dos blocos. Nos títulos utlizamos a fonte <a href="http://www.dafont.com/pt/rounded-elegance.font" target="_blank">Rounded Elegance</a>, que possui letras com aspecto notavelmente mais arredondado do que a fonte escolhida para o <em>body</em>, <a href="https://fonts.google.com/specimen/Lato" target="_blank">Lato</a>, que possui as características tradicionais de uma letra de forma. Podemos notar isso, ao vermos a diferença que há entre as duas fontes por meio da letra "a" minúscula.</p>
+					<h4 class="titulo-peso-4">E outros estilos de fonte, posso utilizar na combinação?</h4>
+					<p>Como vimos lá no começo, fontes de espaçamento fixo, cursivas e fantasias podem comprometer a legibilidade, por isso não são recomendadas para grandes blocos de texto, como parágrafos. Porém, elas podem fazer parte do layout estilizando elementos específicos como títulos e destaques.</p>
+				</div>
+				<div class="exemplo">
+					<div class="box-inteiro">
+						<h2 class="titulo-peso-2">Exemplos de combinações</h2>
+						<p class="capitular">Não existe uma composição tipográfica definitiva, mas algumas fontes combinam melhor com outras e isso pode acontecer por que se diferenciam bem, ou por terem características em comum, mas algum detalhe é diferente. É sempre interessante testar a composição tipográfica e associar à paleta de cores da identidade. Uma ferramenta muito interessante é o <a href="http://www.typegenius.com/" target="_blank">typegenius</a>. Com ela encontramos uma série de fontes, escolhemos uma e a ferramenta exibe combinações interessantes.</p>
+						<p>No layout desta página, definimos a fonte <a href="https://fonts.google.com/specimen/Lato" target="_blank">Lato</a> para os parágrafos. O <a href="http://www.typegenius.com/" target="_blank">typegenius</a> possui essa fonte e sugere duas combinações:</p>
+						<ul class="lista-simples">
+							<li>Título <a href="https://fonts.google.com/specimen/Droid+Serif" target="_blank">Droid Serif</a> e parágrafo <a href="https://fonts.google.com/specimen/Lato">Lato</a></li>
+							<li>Título <a href="https://fonts.google.com/specimen/Lato" target="_blank">Lato</a> e parágrafo <a href="https://fonts.google.com/specimen/Droid+Serif" target="_blank">Roboto Slab</a></li>
+						</ul>
+						<p>Com isso, já conseguimos imaginar algumas possibilidades:</p>
+					</div>
+					<div class="box-terco">
+						<h3 class="aula-3-titulo-serifa">Título com serifa</h3>
+						<p>Parágrafo sem serifa. Os sites dos jornais <a href="http://www.folha.uol.com.br/" target="_blank">Folha</a> e <a href="http://www.estadao.com.br/" target="_blank">Estadão</a>, por exemplo, utilizam esse padrão em muitos destaques de sua página principal. A tipografia serifada veio do jornal impresso, já a sem serifa é utilizada como apoio para não deixar a página tão pesada, carregada de textos com serifa. As páginas internas, com matérias, utilizam o mesmo padrão que o jornal impresso – somente fontes serifadas.</p>
+					</div>
+					<div class="box-terco">
+						<h3 class="aula-3-titulo-sem-serifa">Título sem serifa</h3>
+						<p class="aula-3-paragrafo-slab">Parágrafo de fonte Slab. Um exemplo é a <a href="http://revistaautoesporte.globo.com/" target="_blank">Revista Auto Esporte</a>, que utiliza a fonte slab em seus parágrafos e, nos títulos, utiliza uma fonte sem serifa com todas as letras maíusculas – uma combinação que funciona bem. As fontes de serifa slab possuem uma forma que remete à máquina de escrever e podem produzir blocos de texto de aspecto elegante e moderno.</p>
+					</div>
+					<div class="box-terco destaque">
+						<p>Fontes Slab são fontes de origem egípcia com serifas quadradas. O veículo de informação <a href="http://www.carosamigos.com.br/" target="_blank">Caros Amigos</a>, por exemplo, utiliza esse tipo de fonte nos títulos de seu portal. Uma fonte de apoio pode ser definida em seu layout para ser usada em elementos de destaque.</p>
+					</div>
+					<div class="box-inteiro">
+						<h3 class="titulo-peso-3">Diagramas de combinação de fontes</h3>
+						<p>É possível encontrar alguns diagramas de combinações de fontes que ajudam a ter uma noção de quais fontes funcionam bem juntas. Um destes diagramas, o <a href="http://www.as8.it/handouts/mixing-typefaces_U&lc1992.pdf" target="_blank">Mixing Typefaces</a> de Setembro de 1992, mostra como fontes famosas se comportam usadas juntas, se elas combinam, se são uma combinação moderada ou se não combinam. O diagrama <a href="http://www.fastprint.co.uk/Assets/User/650-google-fonts-infographic-new.jpg" target="_blank">The art of Mixing Typefaces – Google Fonts Edition</a> recriou o diagrama de 1992 com as fontes disponíveis no <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="estilos">
+			<div class="container">
+				<div class="box-inteiro">
+					<h1 class="titulo-de-capitulo">Estilos aplicáveis com CSS3</h1>
+				</div>
+				<div class="box-inteiro">
+					<h3 class="titulo-peso-3">Distribuindo cores para os elementos tipográficos</h3>
+					<p>Nesta página, vamos trabalhar com a seguinte paleta de cores:</p>
+					<ul class="paleta">
+						<li class="paleta-000000">#000000</li>
+						<li class="paleta-666666">#666666</li>
+						<li class="paleta-f1f1f1">#F1F1F1</li>
+						<li class="paleta-ffffff">#FFFFFF</li>
+						<li class="paleta-cc0000">#CC0000</li>
+						<li class="paleta-ee0000">#EE0000</li>
+						<li class="paleta-006666">#006666</li>
+						<li class="paleta-00cccc">#00CCCC</li>
+						<li class="paleta-00eeee">#00EEEE</li>
+					</ul>
+					<p>Alguns elementos estruturais já possuem as cores aplicadas, pois nosso objetivo aqui é focar na tipografia. Nos planos de fundo, usamos a cor branca ou cinza bem clarinha, apenas para diferenciar uma seção da outra. Também já temos os estilos "inverso", que utiliza cinza escuro no fundo e branco no texto, e "destaque", que utiliza o tom de turquesa mais escuro no plano de fundo e também branco no texto.</p>
+					<p>Vamos editar o arquivo <b>tipografia.css</b>.</p>
+					<p>Como vimos nos princípios para uma tipografia de boa legibilidade, muito contraste pode tornar a leitura cansativa. Vamos reduzir esse contraste atribuindo a cor #666666 para todo o texto da página, que deverá substituir a cor preta, que é padrão quando não definimos a cor do texto. Então definimos o <em>body</em> que ficará assim:</p>
+					<pre class="codigo">
+body{
+	font-family: 'Lato', 'Trebuchet MS', 'Arial', sans-serif;
+	color: #666;
+}</pre>
+					<p>A diminuição do contraste tornou nossa página menos densa e a leitura mais agradável.</p>
+					<p>Temos muitos links nos blocos de texto. Por padrão, o navegador deixa os links azuis e sublinhados. É importante destacar de alguma maneira os links, para que o usuário saiba que é um elemento clicável, mas podemos criar um estilo mais interessante que o padrão do navegador. Como já temos botões vermelhos, podemos também estilizar os links com essa cor e remeter à ideia de um elemento clicável, então definimos o seguinte estilo para os links:</p>
+					<pre class="codigo">
+a{
+	color: #C00;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #E00;
+	text-decoration: underline;
+}</pre>
+					<p>Agora todos os links da página possuem a cor #CC0000 e, quando há sobreposição do cursor do mouse, os links passam a ter a cor #EE0000 e recebem um sublinhado. O estilo ficou interessante para quase toda a página, porém nos blocos <em>"inverso"</em> e <em>"destaque"</em> essa cor de link não funciona bem, pois esses blocos possuem uma relação de cor inversa: fundo escuro e texto claro. Então vamos definir cores turquesa para os links desses elementos:</p>
+					<pre class="codigo">
+.inverso a,
+.destaque a{
+	color: #0CC;
+}
+
+.inverso a:hover,
+.destaque a:hover{
+	color: #0EE;
+}</pre>
+					<p>Nossa página também possui blocos de texto HTML e CSS (pre) com o conteúdo das atividades e são definidos pela classe <b>codigo</b>. Os textos pré-formatados, por padrão do navegador, já vêm com uma fonte de espaçamento fixo e isso já ajuda a lembrar que se trata de um código. Para tornar o nosso layout mais interessante e diferenciar os elementos, podemos destacar essas classes <b>codigo</b> com uma cor. Então definimos o seguinte:</p>
+					<pre class="codigo">
+.codigo{
+	color: #0CC;
+}</pre>
+					<p>Agora nossa página possui um elemento destacado por cor. Isso torna a página mais agradável e também traz ritmo para o conteúdo, uma vez que a cor também é uma característica que diferencia os elementos. Vamos destacar também os títulos <b>"h1"</b> desta página, a fim de definir melhor as aberturas de capítulo. Se quiséssemos que o texto fosse sublinhado, deveríamos colocar a propriedade <em>text-decoration: underline</em>, mas quero apenas decorar os títulos de peso 1 com uma borda abaixo e uma borda ao lado, além de atribuir a cor preta à fonte e proporcionar maior destaque. Para isso já temos uma classe atribuída a esses títulos — <b>titulo-peso-1</b>:</p>
+						<pre class="codigo">
+.titulo-de-capitulo{
+	padding: 10px 0 10px 10px;
+	margin-left: -20px;
+	color: #000;
+	border-bottom: 2px dotted #0CC;
+	border-left: 10px solid #0CC;
+}</pre>
+					<p>Com isto, já estilizamos boa parte do texto de nossa página. Vejamos a seguir como estilizar alguns elementos tipográficos.</p>
+				</div>
+				<div class="box-inteiro">
+					<h3 class="titulo-peso-3">Como produzir uma capitular</h3>
+					<p class="capitular">Letra capitular é um estilo tipográfico que podemos utilizar para destacar parágrafos de maior importância. Trata-se de um recurso de estilização herdadado do design impresso tradicional, muito utilizado em livros, revistas e também pode ser produzido com CSS – interessante para estilizar matérias, artigos e posts. Por exemplo, o jogo <a href="https://worldofwarcraft.com/pt-br/" target="_blank">World of Warcraft</a> utiliza o "drop caps" nas matérias de seu portal.</p>
+					<p>Para destacar uma capitular, podemos apenas tornar a primeira letra maior que as outras, assim como também podemos atribuir características específicas a ela: fundo, contorno, margem, padding e outros estilos. Nesta página, diversos parágrafos receberam a classe <b>capitular</b>. Vamos inserir os estilos no arquivo <b>tipografia.css</b> e ver o que acontece com esses parágrafos:</p>
+					<pre class="codigo">
+.capitular:first-letter{
+	background-color: #666;
+	float: left;
+	color: #FFF;
+	font-size: 2em;
+	line-height: 1.25em;
+	padding: 0 .2em;
+	border-radius: 5px;
+	margin-right: .1em;
+}
+
+@media (min-width: 768px){
+
+	.capitular:first-letter{
+		font-size: 2.1em;
+	}
+
+}</pre>
+					<p>Como podemos ver, estamos selecionando a primeira letra do parágrafo por meio do pseudo-elemento <b>first-letter</b>. Agora temos diversos parágrafos com capitular.</p>
+					<p>Alguns boxes "inversos" também possuem capitular. Para isso já temos a classe <b>capitular-inverso</b> atribuída a alguns parágrafos desses boxes. Para estilizarmos, porém com as cores inversas, adicionaremos o seguinte:</p>
+					<pre class="codigo">
+.capitular-inverso:first-letter{
+	background-color: #FFF;
+	float: left;
+	color: #666;
+	font-size: 2em;
+	line-height: 1.25em;
+	padding: 0 .2em;
+	border-radius: 5px;
+	margin-right: .1em;
+}
+
+@media (min-width: 768px){
+
+	.capitular-inverso:first-letter{
+		font-size: 2.1em;
+	}
+
+}</pre>
+					<p>Agora já temos diversos parágrafos de maior importância destacados por esse elemento tipográfico. Você pode estilizar a capitular com as propriedades CSS da forma que achar mais interessante.</p>
+				</div>
+				<div class="box-inteiro">
+					<h3 class="titulo-peso-3">Como estilizar uma citação</h3>
+					<p class="capitular">No HTML, marcamos pequenas citações (podem estar dentro de parágrafo) com a tag <b>&lt;q&gt;</b> e, quando se trata de um bloco inteiro de citação, marcamos com a tag <b>&lt;blockquote&gt;</b>. Nesta página, já atribuímos a classe <b>citacao</b> ao seguinte bloco de citação e a classe <b>autor</b> ao seguinte autor da citação:</p>
+					<blockquote class="citacao" cite="http://www.alura.com.br">
+						<p>A gente faz parte do crescimento da pessoa, não somos nós que fazemos a pessoa crescer. Estamos lá para poder permitir esse crescimento, então é uma vitória em que pudemos fazer parte.</p>
+						<cite class="autor">Guilherme Silveira</cite>
+					</blockquote>
+					<p>Vamos estilizar este bloco com a seguinte definição no CSS:</p>
+					<pre class="codigo">
+.citacao{
+	border: 1px solid #066;
+	border-left: 10px solid #066;
+	margin: 0;
+	padding: 0.5em;
+	width: 100%;
+	border-radius: 30px;
+	quotes: '\201C''\201D''\2018''\2019';
+}
+
+.citacao p{
+	display: block;
+	margin: 1em;
+	font: 100 italic 1em 'Droid Serif', 'Georgia', 'Times New Roman', Serif;
+	line-height: 1.6em;
+}
+
+@media (min-width: 768px){
+
+	.citacao{
+		width: 60%;
+		margin: 0 auto;
+	}
+
+}
+
+.citacao p:before{
+	color: #066;
+	content: open-quote;
+	font-size: 5em;
+	margin-right: .1em;
+	vertical-align: -.4em;
+	line-height: 0;
+}
+
+.citacao p:after{
+	content: close-quote;
+	color: #066;
+	font-size: 5em;
+	line-height: 0;
+	margin-left: .1em;
+	vertical-align: -.6em;
+}
+
+.citacao .autor{
+	color: #066;
+	text-align: right;
+	display: block;
+	padding: 0 1em 1em 0;
+	font: normal 900 1em 'Lato', 'Trebuchet MS', 'Arial', sans-serif;
+}</pre>
+					<p>Por meio dos seletores <b>before</b> e <b>after</b>, adicionamos o conteúdo "aspas" de abertura, de fechamento e aplicamos o estilo para que se encaixe bem em qualquer tamanho de texto.</p>
+				</div>
+				<div class="box-meio">
+					<h3 class="titulo-peso-3">Propriedades CSS de texto</h3>
+					<table class="info-css">
+						<tbody>
+							<tr>
+								<th>Propriedade</th>
+								<th>Descrição</th>
+								<th>Valores</th>
+							</tr>
+							<tr>
+								<td>color</td>
+								<td>Define a cor do texto. Devemos considerar a cor ou imagem do fundo a fim de produzir contraste para estilização e legibilidade.</td>
+								<td>"Cor" | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>direction</td>
+								<td>Especifica a direção do texto: esquerda para direita ou direita para esquerda. Mais utilizada para outros idiomas.</td>
+								<td>ltr | rtl | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>letter-spacing</td>
+								<td>Determina o espaçamento entre os caracteres (aceita valores negativos).</td>
+								<td>normal | "Valor numérico" | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>line-height</td>
+								<td>Estabelece a altura da linha de texto. Pouco espaço pode tornar o texto muito denso e cansativo, muito espaço pode fazer parecer que as linhas de texto estão soltas.</td>
+								<td>normal | "valor numérico" | Initial | inherit</td>
+							</tr>
+							<tr>
+								<td>text-align</td>
+								<td>Alinhamento do texto. *Cuidado com o alinhamento justificado (Aula 5) </td>
+								<td>left | right | center | justify | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>text-decoration</td>
+								<td>Especifica uma decoração adicionada ao texto.</td>
+								<td>none | underline | overline | line-through | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>text-indent</td>
+								<td>Define o espaço da primeira linha do bloco de texto.</td>
+								<td>"Valor numérico" | initial | inherit </td>
+							</tr>
+							<tr>
+								<td>text-shadow</td>
+								<td>Adiciona estilo de sombra ao texto.</td>
+								<td>"Sombra horizontal" "sombra vertical" "tamanho do desfoque" "cor" | none | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>text-transform</td>
+								<td>Trata-se da capitalização do texto, ou seja, se há capitalização, se a primeira é maiúscula, se todas são caixa alta ou caixa baixa.</td>
+								<td>none | capitalize | uppercase | lowercase | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>unicode-bidi</td>
+								<td>Usado juntamente com a propriedade direction, define se o texto deve ser substituido para suportar outros idiomas.</td>
+								<td>normal | embed | bidi-override | intitial | inherit</td>
+							</tr>
+							<tr>
+								<td>vertical-align</td>
+								<td>Define o alinhamento vertical de um elemento.</td>
+								<td>baseline | "Valor numérico" | sub | super | top | text-top | middle | bottom | text-bottom | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>white-space</td>
+								<td>Define como a área do texto se comporta, se há quebra de linha, se a quebra de linha é declarada por quebra, ou se não há quebra de linha.</td>
+								<td>normal | nowrap | pre | pre-line | pre-wrap | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>word-spacing</td>
+								<td>Espaçamento entre as palavras.</td>
+								<td>normal | "Valor numérico" | initial | inherit</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="box-meio">
+					<h3 class="titulo-peso-3">Propriedades CSS de fonte</h3>
+					<table class="info-css">
+						<tbody>
+							<tr>
+								<th>Propriedade</th>
+								<th>Descrição</th>
+								<th>Valores</th>
+							</tr>
+							<tr>
+								<td>font</td>
+								<td>Pode definir diversas propriedades da fonte de um elemento.</td>
+								<td>font-style font-variant font-weight font-size/line-height font-family | caption | icon | menu | message-box | small-caption | status-bar | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>font-family</td>
+								<td>Define a família da fonte.</td>
+								<td>"fonte" | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>font-size</td>
+								<td>Estabelece o tamanho da fonte do elemento. A propriedade <em>line-height</em>, quando não definida, recebe valores relacionados a esta propriedade.</td>
+								<td>medium | xx-small | x-small | small | large | x-large |xx-large | smaller | larger | "Valor numérico" | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>font-style</td>
+								<td>Define se o estilo da fonte é normal, itálico ou oblíquo.</td>
+								<td>normal | italic | oblique | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>font-variant</td>
+								<td>Em fontes <em>small-caps</em>, todas as letras minúsculas são convertidas em letras maiúsculas, porém essas letras convertidas são menores que as fontes maiúsculas originais do texto. Esta propriedade especifica se o texto deve ser exibido ou não em uma fonte small-cap.</td>
+								<td>normal | small-caps | initial | inherit</td>
+							</tr>
+							<tr>
+								<td>font-weight</td>
+								<td>Trata-se do peso da fonte. Para utilizar esta propriedade com uma fonte específica, as variações também devem estar incorporadas.</td>
+								<td>normal | bold | bolder | lighter | "Valor numérico do peso da fonte" | initial | inherit</td>
+							</tr>
+						</tbody>
+					</table>
+					<p class="capitular">É importante lembrar que as propriedades de texto, de fonte e as demais propriedades CSS trabalham juntas para dispor os elementos pelo layout. Esta referência mostra apenas as propriedades compatíveis com a maioria dos navegadores que os elementos de texto podem receber.</p>
+					<p>Algumas propriedades, como o <b>letter-spacing</b>, ou o <b>word-spacing</b> devem ser utilizadas com finalidades específicas. Nesta página, por exemplo, utilizamos texto em caixa alta nos itens de menu. Para aumentar a legibilidade, podemos aumentar o espaçamento entre os caracteres e evitar que a leitura seja dificultada por letras próximas. Vamos adicionar o seguinte:</p>
+					<pre class="codigo">
+.menu-itens li,
+.btn-menu{
+	letter-spacing: .1em;
+}</pre>
+				</div>
+				<div class="box-inteiro inverso">
+					<h3 class="titulo-peso-3">Unidades de medida</h3>
+					<p>O CSS oferece uma grande quantidade de opcões para unidades de medida: em, px, pt, cm, in, entre outras. Algumas unidades têm a ver com o mundo físico e servem bem para impressão, como por exemplo, <b>cm</b>(centímetros) e <b>in</b>(inches - polegadas), mas não são funcionais para desenvolvimentos de páginas na web. Outras têm tamanho fixo, como <b>px</b> (pixels), funcionam bem para web, mas podem apresentar problemas para sites responsivos, caso o usuário tenha configurações específicas sobre o tamanho da fonte do navegador.</p>
+					<p>Neste projeto, utilizamos bastante a unidade <b>em</b> (poderíamos ter usado porcentagem), que nada mais é que o próprio tamanho da fonte. O valor "1em" significa 100%, ou seja, o total do tamanho da fonte naquela situação. Quando utilizamos <b>em</b> em outras propriedades, estamos utilizando como referência o tamanho da fonte daquele elemento.</p>
+				</div>
+			</div>
+		</section>
+		<section id="questoes-importantes">
+			<div class="container">
+				<div class="box-inteiro">
+					<h1 class="titulo-de-capitulo">Questões importantes</h1>
+				</div>
+				<div class="box-inteiro">
+					<h2 class="titulo-peso-2">Casos específicos</h2>
+					<p class="capitular">Às vezes, a melhor opção é simplificar. Menus, formulários e listagens são exemplos de agrupamento de informações e, nestes casos, utilizar variações mais discretas pode funcionar melhor. Tamanho, peso, inclinação, cores, capitalização, traço e espaçamento entre caracteres são variações que, em apenas uma família de fonte, costumam produzir bons resultados, porém, quando tentantamos combinar fontes diferentes, o conteúdo pode ficar mais pesado e tornar o layout menos interessante. Vejamos o exemplo a seguir. </p>
+				</div>
+				<div class="box-meio">
+					<h3 class="titulo-peso-3">Produtos da listagem de um e-commerce</h3>
+					<p>Para estilizarmos os elementos de texto da listagem de produtos, utilizaremos o CSS abaixo. Caso queira ententer as propriedades que estilizam a estrutura e os outros elementos da listagem, consulte o arquivo <b>estrutura.css</b>.</p>
+					<pre class="codigo">
+.aula-5-lista-de-produtos li:hover{
+	text-decoration: none;
+}
+
+.aula-5-produto a{
+	text-decoration: none;
+}
+
+.aula-5-desconto{
+	color: #FFF;
+	font-size: .6em;
+	font-weight: bold;
+	line-height: 29px;
+	text-align: center;
+}
+
+.aula-5-infos-produto{
+	vertical-align: top;
+}
+
+.aula-5-nome-do-produto{
+	font-size: .8em;
+	line-height: 1.2em;
+}
+
+.aula-5-preco-velho{
+	color: #666;
+	font-size: .6em;
+}
+
+.aula-5-preco-real{
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.aula-5-parcelas{
+	font-style: italic;
+	font-weight: bold;
+	color: #000;
+	font-size: .7em;
+}
+
+.aula-5-frete-gratis{
+	font-size: .4em;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #FFF;
+}
+
+@media (min-width: 768px){
+
+	.aula-5-desconto{
+		font-size: .8em;
+		line-height: 39px;
+	}
+
+	.aula-5-nome-do-produto{
+		font-size: 1em;
+		line-height: 1.2em;
+	}
+
+	.aula-5-preco-velho{
+		font-size: .8em;
+	}
+
+	.aula-5-preco-real{
+		font-size: 1.2em;
+	}
+
+	.aula-5-parcelas{
+		font-size: .9em;
+	}
+
+	.aula-5-frete-gratis{
+		font-size: .7em;
+	}
+}</pre>
+				</div>
+				<div class="box-meio">
+					<p>Por se tratar de uma listagem que receberá inúmeras informações, trabalharemos apenas com a fonte Lato, sem serifa, a fim de tornar a listagem mais leve.</p>
+					<p>O elemento de maior destaque de um item da lista, claramente é a foto. O resto é informação de texto e precisa receber a devida hierarquia para cada informação. O nome é o elemento que mais pode variar de tamanho de caracteres, o preço é o que o usuário logo quer saber, as etiquetas de desconto e frete são vantagens de alguns produtos. Com essa classificação de cada item, conseguimos estabelecer a hierarquia e aplicar estilos compatíveis.</p>
+					<div class="resultado">
+						<h4 id="exemplo-lista-de-produtos" class="titulo-peso-4">Resultado:</h4>
+						<ul class="aula-5-lista-de-produtos">
+							<li class="aula-5-produto">
+								<a href="#exemplo-lista-de-produtos" alt="Produto exemplo">
+									<div class="aula-5-desconto">
+										-10%
+									</div>
+									<img src="img/aula-5/exemplo-produto-1.png" alt="Produto exemplo" class="aula-5-imagem-produto">
+									<div class="aula-5-infos-produto">
+										<div class="aula-5-nome-do-produto">Panela Inox Panelox - linha Luxo 3L</div>
+										<del class="aula-5-preco-velho">R$ 200,00</del>
+										<strong class="aula-5-preco-real">R$ 180,00</strong>
+										<strong class="aula-5-parcelas">ou 5x de R$ 36,00</strong>
+										<strong class="aula-5-frete-gratis">Frete Grátis</strong>
+									</div>
+								</a>
+							</li>
+							<li class="aula-5-produto">
+								<a href="#exemplo-lista-de-produtos" alt="Produto exemplo">
+									<div class="aula-5-desconto">
+										-20%
+									</div>
+									<img src="img/aula-5/exemplo-produto-2.png" alt="Produto exemplo" class="aula-5-imagem-produto">
+									<div class="aula-5-infos-produto">
+										<div class="aula-5-nome-do-produto">Tábua de corte WoodKitchen 40x27x2cm</div>
+										<del class="aula-5-preco-velho">R$ 30,00</del>
+										<strong class="aula-5-preco-real">R$ 24,00</strong>
+										<strong class="aula-5-parcelas"></strong>
+									</div>
+								</a>
+							</li>
+							<li class="aula-5-produto">
+								<a href="#exemplo-lista-de-produtos" alt="Produto exemplo">
+									<img src="img/aula-5/exemplo-produto-3.png" alt="Produto exemplo" class="aula-5-imagem-produto">
+									<div class="aula-5-infos-produto">
+										<div class="aula-5-nome-do-produto">Máquina de lavar Eletronic Life - Linha Clean House 15kg Tampa Frontal</div>
+										<del class="aula-5-preco-velho"></del>
+										<strong class="aula-5-preco-real">R$ 1750,00</strong>
+										<strong class="aula-5-parcelas">ou 5x de R$ 350,00</strong>
+										<strong class="aula-5-frete-gratis">Frete Grátis</strong>
+									</div>
+								</a>
+							</li>
+							<li class="aula-5-produto">
+								<a href="#exemplo-lista-de-produtos" alt="Produto exemplo">
+									<div class="aula-5-desconto">
+										-10%
+									</div>
+									<img src="img/aula-5/exemplo-produto-4.png" alt="Produto exemplo" class="aula-5-imagem-produto">
+									<div class="aula-5-infos-produto">
+										<div class="aula-5-nome-do-produto">Banqueta Bar House Style</div>
+										<del class="aula-5-preco-velho">R$ 300,00</del>
+										<strong class="aula-5-preco-real">R$ 270,00</strong>
+										<strong class="aula-5-parcelas">ou 5x de R$ 54,00</strong>
+										<strong class="aula-5-frete-gratis">Frete Grátis</strong>
+									</div>
+								</a>
+							</li>
+							<li class="aula-5-produto">
+								<a href="#exemplo-lista-de-produtos" alt="Produto exemplo">
+									<img src="img/aula-5/exemplo-produto-6.png" alt="Produto exemplo" class="aula-5-imagem-produto">
+									<div class="aula-5-infos-produto">
+										<div class="aula-5-nome-do-produto">Travesseiro de Astronauta Sonhos Fofos</div>
+										<del class="aula-5-preco-velho"></del>
+										<strong class="aula-5-preco-real">R$ 23,42</strong>
+										<strong class="aula-5-parcelas"></strong>
+									</div>
+								</a>
+							</li>
+							<li class="aula-5-produto">
+								<a href="#exemplo-lista-de-produtos" alt="Produto exemplo">
+									<div class="aula-5-desconto">
+										-30%
+									</div>
+									<img src="img/aula-5/exemplo-produto-5.png" alt="Produto exemplo" class="aula-5-imagem-produto">
+									<div class="aula-5-infos-produto">
+										<div class="aula-5-nome-do-produto">Rack Design Life 180x50x40cm - Linha Super Chic</div>
+										<del class="aula-5-preco-velho">R$ 1800,00</del>
+										<strong class="aula-5-preco-real">R$ 1260,00</strong>
+										<strong class="aula-5-parcelas">ou 5x de R$ 252,00</strong>
+										<strong class="aula-5-frete-gratis">Frete Grátis</strong>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<p>Inspecione esta página com o navegador e veja como a listagem é exibida em formatos de tela menores.</p>
+				</div>
+				<div class="box-inteiro">
+					<h2 class="titulo-peso-2">Erros comuns</h2>
+					<p class="capitular">Existe uma série de detalhes que devemos nos atentar quando produzimos blocos de texto para uma página da web. Muitas vezes, alguns erros aparecem e não percebemos, pois são formados pelo próprio conteúdo, ou por um alinhamento que não serve para determinada situação. Seguem abaixo alguns problemas de texto que podem surgir:</p>
+				</div>
+				<div class="box-inteiro">
+					<h3 class="titulo-peso-3">Caminhos de rato</h3>
+					<p>Os caminhos de rato são espaços vazios entre as palavras, normalmente formados por um texto mal justificado ou por um espaçamento entre palavras (<em>word-spacing</em>) mal elaborado.</p>
+					<p>Por exemplo, o parágrafo a seguir recebeu texto <b>justificado</b>, mas não possui uma hifenização adequada:</p>
+					<p class="justificado-errado">
+						Este é um parágrafo de exemplo e está justificado, diferente do resto do conteúdo que está, na maior parte, alinhado à esquerda. Perceba os "caminhos de rato" que se formam entre as palavras. É um problema que pode ser resolvido com hifenização, mas não se trata de algo tão simples em CSS, pois deve considerar a separação correta de sílaba do idioma da página.
+					</p>
+					<p>O Html não sabe exatamente onde as palavras devem ser quebradas para separar as sílabas em cada idioma. Uma forma de produzir textos justificados e hifenizados, é declarar os hífens condicionais nas palavras com o caractere <b>&­shy;</b> (contração de "soft hyphen") e adicionar a propriedade <b>hyphens</b> ao CSS. Vamos estilizar o último parágrafo deste bloco, que já tem os hífens declarados, adicionando o seguinte ao <b>tipografia.css</b>:</p>
+					<pre class="codigo">
+.justificado-certo{
+	text-align: justify;
+	color: #0CC;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}</pre>
+					<p class="justificado-certo">Este pará&shy;grafo rece&shy;beu a hife&shy;ni&shy;zação condi&shy;cional em di&shy;ver&shy;sas pa&shy;la&shy;vras e, por esse mo&shy;tivo, o texto justi&shy;ficado se com&shy;por&shy;ta de ma&shy;nei&shy;ra ade&shy;quada. Os "cami&shy;nhos de rato" não são produ&shy;zidos, pois as pa&shy;la&shy;vras podem se se&shy;pa&shy;rar para melhor se ajus&shy;tarem ao bloco. Infe&shy;liz&shy;mente, para que isso acon&shy;teça, é neces&shy;sário declarar o hífen condi&shy;cional no html e defi&shy;nir a proprie&shy;dade css <b>hyphens</b> como auto&shy;mática.</p>
+					<p>Se tivéssemos que declarar todos os hífens, seria um trabalhão, não? Por isso que a maioria dos sites não utiliza texto justificado.</p>
+				</div>
+				<div class="box-meio">
+					<h3 class="titulo-peso-3">Órfãs, viúvas e forcas.</h3>
+					<p>Termos utilizados para denominar erros do design gráfico impresso, que podem aparecer ocasionalmente em casos específiios da web: quando há paginação no texto, divisão do texto em colunas e similares. <b>Órfãs</b> são linhas de texto que ficam sozinhas na última linha de uma página/coluna e <b>Viúvas</b> são as linhas que ficam sozinhas na página seguinte. <b>Forcas</b> são pedaços de palavras hifenizas que ficam sozinhas no final de um parágrafo. Esses problemas costumam prejudicar leituras mais longas, pois "quebram" o bloco de texto em pontos estratégicos de continuidade.</p>
+				</div>
+				<div class="box-meio">
+					<h3 class="titulo-peso-3">Efeito pérola</h3>
+					<p>Trata-se de um problema que pode ocorrer quando escolhemos fontes sem serifa de aspecto muito arredondado. A letra "o", quando é um círculo perfeito, pode acabar se destacando mais que outras letras dentro de um bloco de texto e esse problema é o que chamamos de <b>efeito pérola</b>. Esse problema pode ser evitado com uma pesquisa de fontes adequadas.</p>
+				</div>
+			</div>
+		</section>
+		<footer class="rodape">
+			<div class="container">
+				<div class="box-inteiro">
+					<h2 class="titulo-peso-2">Se interessou pelo desenvolvimento de páginas web?</h2>
+						<img class="ico-carreira" src="https://www.alura.com.br/assets/img/carreira/label-carreira.1472136844.svg" alt="Carreira">
+						<p>Conheça a <a href="https://www.alura.com.br/carreira-desenvolvedor-front-end" target="_blank">Carreira Desenvolvedor Front-End Alura</a>. Os cursos abordam desde as linguagens fundamentais HTML, CSS e Javascript, até webdesign responsivo e frameworks que podem facilitar a vida do profissional.</p>
+				</div>
+				<div class="box-meio">
+					<h3 class="titulo-peso-3">Bibliografia</h3>
+					<ul class="bibliografia">
+						<li>"Pensando com tipos" - Ellen Lupton - COSACNAIFY
+						<li>"The Elements of Typographic Style Applied to the Web" – Richard Rutter</li>
+						<li>"Typography: Getting the Hang of Web Typography" — Smashing Magazine</li>
+						<li>"The World Wide Web Consortium" – <a href="https://www.w3.org/" target="_blank">www.w3.org</a></li>
+					</ul>
+				</div>
+				<div class="box-meio">
+					<h3 class="titulo-peso-3">Créditos</h3>
+
+					<ul class="creditos">
+						<li>Projeto: <a href="http://www.brunoharnik.com.br" target="_blank">Bruno Harnik</a></li>
+						<li>Front-end: Bruno Harnik e Renan Saggio</li>
+						<li>Revisão de texto: Patrícia Alcântara</li>
+						<li>Revisão de código: Renan Saggio e Artur Diniz Adam</li>
+						<li><a href="https://www.alura.com.br/" target="_blank">Alura Comércio de Livros e Treinamentos LTDA - EPP | CNPJ 21.686.294/0001-27</a></li>
+					</ul>
+				</div>
+				<div class="box-inteiro">
+					<blockquote class="citacao" cite="http://alexgrey.com/">
+						<p>O princípio criativo tem menos a ver com dogma e mais a ver com nossa abertura à evolução da consciência.</p>
+						<cite class="autor">Alex Grey</cite>
+					</blockquote>
+				</div>
+			</div>
+		</footer>
+		<script src="js/menu.js"></script>
+	</body>
+</html>
